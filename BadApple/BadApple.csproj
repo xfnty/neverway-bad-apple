@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NeverwayPath>{{NEVERWAY_PATH}}</NeverwayPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(NeverwayPath)\Wayfinder\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Wayfinder.Core">
+      <HintPath>$(NeverwayPath)\Wayfinder\Wayfinder.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Wayfinder.Patcher">
+      <HintPath>$(NeverwayPath)\Wayfinder\Wayfinder.Patcher.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Bang">
+      <HintPath>$(NeverwayPath)\ModdedCoreFiles\Bang.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Murder">
+      <HintPath>$(NeverwayPath)\ModdedCoreFiles\Murder.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Microsoft">
+      <HintPath>$(NeverwayPath)\ModdedCoreFiles\FNA.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="RoadGameAssembly">
+      <HintPath>$(NeverwayPath)\ModdedCoreFiles\Neverway.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

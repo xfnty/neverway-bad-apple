@@ -1,0 +1,52 @@
+{
+	"$type": "Murder.Assets.Graphics.SpriteAsset",
+	"Animations": {
+		"": {
+			"Frames": [
+				0
+			],
+			"FramesDuration": [
+				100
+			],
+			"Events": {},
+			"AnimationDuration": 0.1,
+			"NextAnimation": []
+		}
+	},
+	"Atlas": "BadAppleIconAtlas",
+	"Frames": [
+		{
+			"AtlasIndex": 0,
+			"Name": "badapple\\badapple_icon",
+			"Size": {
+				"X": 32,
+				"Y": 32
+			},
+			"SourceRectangle": {
+				"X": 0,
+				"Y": 0,
+				"Width": 28,
+				"Height": 26
+			},
+			"UV": {
+				"X": 0,
+				"Y": 0,
+				"Width": 1,
+				"Height": 1
+			},
+			"TrimArea": {
+				"X": 2,
+				"Y": 3,
+				"Width": 28,
+				"Height": 26
+			},
+			"AtlasId": "BadAppleIconAtlas"
+		}
+	],
+	"Size": {
+		"X": 32,
+		"Y": 32
+	},
+	"Name": "badapple\\badapple_icon",
+	"Guid": "326ba9dc-6c79-4e30-9e66-eec8277fcee3"
+}
